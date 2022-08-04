@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Situs Jual BelI Online Terlengkap, Mudah & Aman </title>
+  </head>
+
+   <!-- Isi -->
+  <body>
+    <!--header 1-->
+    <div class="header">
+        <div class="item-header-1 d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+        <img class="mr-1" src="assets/img/hpico.png" alt"">
+        <div class="container">
+          <a href="https://play.google.com/store/apps/details?id=com.tokopedia.tkpd&hl=en&gl=US"><span class="download page">Download tokopedia App</span></a>
+      </div>
+      </div>
+
+      <div class="d-flex">
+        <div class="container">
+        <span class="mr-4"><a href="tentangtokopedia.html"><span class="tentang-tokped">Tentang Tokopedia</a></span>
+        <span class="mr-4"><a href="tentangtokopedia.html"><span class="tentang-tokped">Mitra Tokopedia</a></span>
+        <span class="mr-4"><a href="tentangtokopedia.html"><span class="tentang-tokped">Pusat Edukasi Seller</a></span>
+        <span class="mr-4"><a href="tentangtokopedia.html"><span class="tentang-tokped">Promo</a></span>
+        <span class="mr-4"><a href="tentangtokopedia.html"><span class="tentang-tokped">Tokopedia care</a></span>
+          </div>
+       </div>
+      </div>
+     </div>
+
+    <!--header 2-->
+
+      <div class="header">
+        <div class="item-header-2 d-flex justify-content-between align-items-center">
+          </div>
+
+          <div class="item-header-2 d-flex flex-column">
+        <div class="d-flex justify-content-between align-items-center">
+          <img class="tokpedicon"src="assets/img/tokpedlogo.png">
+          <span class="mx-2 text-category">Kategori</span>
+          <div class="wrap-search"> 
+           <input type="text" class="form-control" placeholder="Cari RTX 3090">  
+           <div class="wrap-icon-search"div> 
+            <a href="Tentangtokopedia.html"><img class="search-icon" src="assets/img/searchico.png"></a>
+          </div>
+          </div>
+           
+        
+        <div class="shop-icon mx-3" ">
+          <img class="shopimg" src="assets/img/shopicon.png">
+        </div>
+
+          <span class="garislurus mr-3">|</span>
+          <div class="d-flex">
+            <button class="btn btnmasuk font-weight-bold mr-3"> Masuk</button>
+            <button class="btn font-weight-bold text-white"> Daftar</button>
+            </div>
+          </div>
+            <div class="text-under-search d-flex">
+              <span class ="mr-3"> Item 1</span>
+              <span class ="mr-3"> Item 1</span>
+              <span class ="mr-3"> Item 1</span>
+              <span class ="mr-3"> Item 1</span>
+              <span class ="mr-3"> Item 1</span>
+              <span class ="mr-3"> Item 1</span>
+            </div>
+             </div>
+
+             <div class="menu-bar-keranjang flex-column justify-content-between align-items-center" id="menuBar"> 
+            <img src="assets/img/5.png">
+            <h4 class="mt-2"> Wah Keranjang Belanjaanmu Kosong!</h4>
+            <p class="text-center"> Lorem ipsum</p>
+            <button class="btn"> Lihat Rekomendasi!</button>
+            </div>
+             
+
+          </div>
+          </div>
+          
+      
+       
+        
+        
+        
+          <script src="assets/js/js.js"></script>
+    <!-- Optional JavaScript -->
+    
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

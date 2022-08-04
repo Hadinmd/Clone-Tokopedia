@@ -1,0 +1,671 @@
+
+.header {
+    position: relative;
+    z-index: 9999;
+}
+
+.header span{
+    font-size:14px;
+}
+
+.item-header-1{
+    padding: 8px 32px;
+    background-color: #f4f4f4
+    ;
+}
+
+
+.header .item-header-1 span{
+    color: #929292;
+}
+
+.header .item-header-1 span:hover{
+ color:#5da96a;
+ cursor:pointer;
+}
+
+.item-header-1 .container .tentang-tokped{
+  position:relative;
+}
+.container a {
+    text-decoration: none;
+  }
+
+  .header .item-header-1 img{
+    width: 14px;
+  }
+  
+  .item-header-2{
+    padding:8px 32px;
+    position: relative;
+    background-color: white;
+    box-shadow : #636363 0px 4px 6px -4px ;
+  }
+  .item-header-2 .tokpedicon{
+    width:147px;
+  }
+
+  .item-header-2 .text-category{
+    padding: 2px 5px;
+    font-size: 14px;
+  }
+
+  .item-header-2 .text-category:hover{
+    background-color: #f3f4f5 !important;
+    cursor: pointer !important;
+    color : green;
+    border-radius:5px;
+  }
+
+  .item-header-2 span {
+    color: #929292;
+  }
+
+  .item-header-2 .search-icon {
+    position: relative;
+    width:18px;
+  }
+  .item-header-2 .shopimg{
+    width: 24px;
+    z-index:9999;
+  }
+  .item-header-2 .wrap-search{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 35px;
+  }
+
+  .item-header-2 .wrap-search .form-control{
+    background-color: transparent;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #cdcdcd;
+    z-index: 9999;
+  }
+
+  .item-header-2 .wrap-search .form-control::placeholder{
+    color: #cdcdcd;
+    font-size: 14px;
+  }
+
+  .item-header-2 .wrap-search .form-control:focus{
+    box-shadow: none;
+    border: 1px solid green;   
+  }
+.tess:focus{
+  box-shadow: none;
+  border:#12883D;
+}
+  .apalah-ini:focus {
+    box-shadow:none;
+    border:1px solid green;
+  }
+  .item-header-2 .wrap-search .wrap-icon-search {
+    background-color: #f3f4f5;
+    position: absolute;
+    right:0;
+    height:100%;
+    width:4%;
+    
+  }
+
+  .item-header-2 .wrap-search .wrap-icon-search .search-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+  .item-header-2 .shop-icon {
+    position: relative;
+    background-color: transparent;
+    height: max-content;
+    width: max-content;
+    padding: 0px 8px 5px 8px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+  }
+
+    .shop-icon:hover{
+    background-color: #f3f4f5;
+    cursor: pointer;
+  }
+
+
+
+
+  .item-header-2 .garislurus{
+    font-size: 22px;
+    color: #cdcdcd;
+    margin-bottom: 8px;
+    font-weight: 100%;
+  }
+  .header .btn{
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: green;
+  }
+
+  .header .btnmasuk{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+  }
+
+  .text-under-search{
+    position: relative;
+    margin-left:12%;
+
+  }
+
+  
+  .text-under-search span:hover{
+    color: green;
+    cursor:pointer;
+    } 
+
+
+    .menu-bar-keranjang{
+      display:none;
+      position: absolute;
+      right:35px;
+      top:91px;
+      background-color: white;
+      -webkit-box-shadow: 0px -1px 9px 0px rgb(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px -1px 9px 0px rgb(0, 0, 0, 0.1);
+      box-shadow: 0px -1px 9px 0px rgb(0, 0, 0, 0.1);
+      padding: 10px 30px;
+      border-radius: 12px;
+      transition:0.5s;
+      opacity:1;
+      transform:translateY(-4);
+      z-index:99999;
+  
+
+    }
+
+
+    .menuBarOff{
+      display:none;
+    }
+
+    .menyBarStyle{
+      display:block;
+      visibility: visible;
+      transition: 0.5s;
+      opacity:1;
+      transform: translateY(4px);
+      transform-origin:0% 0%;
+    }
+
+    .menu-bar-keranjang h4{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .menu-bar-keranjang p{
+      font-size: 14px;
+      color: #31353bad;
+     }
+
+     .menu-bar-keranjang img{
+      width:50%
+     }
+
+
+ #overlay-hitam{
+  position: fixed;
+  display: none ;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1;
+  cursor: pointer;
+ }
+
+ .overlaystyling{
+  display:block !important;
+  transition: 0.5s;
+
+ }
+ .modal {
+  z-index: 9999;
+
+ }
+
+ .modal-content{
+  top: 80px;
+  right: 90%;
+  padding: 19px;
+  width: 150%;
+  border-radius: 0;
+  border: 0;
+ }
+
+ .hapuspencarian{
+  color:red;
+ }
+
+ .tombolrekom{
+  background-color: white;
+  width: 10000px;
+ }
+
+ .gedebgt{
+  font-size: 1.43rem;
+ }
+
+ .contoh-barang{
+  width:10%;
+  height: 10%;
+  font-size: 0;
+  display:inline-block;
+ }
+
+ .contoh-barang:hover{
+  cursor:pointer;
+  border-radius:8px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.1);
+ }
+
+ .hapuspencarian{
+  cursor:pointer;
+ }
+
+ .hapusrch{
+  width:5%;
+  height:5%;
+ }
+
+ .imgexit{
+  width:5%;
+  height:5%;
+  margin-left:AUTO;
+ }
+
+ .imgexit:hover{
+  cursor:pointer;
+ }
+
+ .modal-content{
+  
+  overflow-y: scroll;
+  max-height: 400px;
+
+ }
+
+ .contohtoko{
+  width:7%;
+  height:7%;
+ }
+
+ .verifedicon{
+  width: 3%;
+  height:3%;
+  margin-bottom: 5px;
+ }
+
+ .GPS   {
+  top:25px;
+  right:120px;
+  width: 3%;
+  height: 3%;
+  position: relative;
+ }
+
+ .tokook{
+  width: auto;
+  height: auto;
+  font-size: 14px;                         
+ }
+
+ .locationtoko{
+  top:23px;
+  right:120px;
+  position: relative;
+ }
+
+ .carousel{
+  position:relative;
+  top:30px;
+  width:75%;
+  left:15%
+  
+ }
+
+ .carousel-inner{
+  width: 95%;
+  border-radius: 30px;
+ }
+
+ .carousel-indicators{
+  margin-left: 5%;
+  bottom:5%;
+  justify-content: left;
+ }
+
+ .carousel-indicators li{
+  width:10px;
+  height:10px;
+  border-radius: 20px;
+  border-bottom: 0;
+  border-top: 0;
+ }
+
+ .carousel-control-prev{
+  width: 50px;
+  height: 50px;
+  color: black;
+  opacity: 0.5;
+  left:5%;
+  background-color:#505050;
+  border-radius: 100px;
+  top: 45%;
+ }
+
+ .carousel-control-next{
+  width:50px;
+  height:50px;
+  top:45%;
+  opacity: 0.5;
+  background-color:#505050;
+  border-radius:100px;
+  right:5%;
+ }
+
+ .category-carousel{
+  position: relative;
+  top: 40px;
+  margin:10px 32px;
+  left: 15%;
+  width: 71%;
+  box-shadow: rgba(0,0,0,0.3) 0px 1px 6px 0;
+  background-color: white;
+  padding: 16px;
+  border-radius:12px;
+ }
+
+ .carousel2{
+  position: relative;
+
+ }
+
+ .category-carousel h1{
+  font-size:20px;
+  font-weight: bold;
+ }
+
+ .category-carousel img{
+  width: 150%;
+  height: 150%;
+ }
+
+ .btn2{
+  border-radius:8px;
+  font-size: 14px;
+  color: white;
+  border: 1px green;
+  padding:4px;
+  background-color: green;
+ }
+
+ .carousel2{
+    position:relative;
+    top:0%;
+    left:0%
+   }
+ 
+   .card-category{
+
+    border: 4px solid #dfdfdf;
+    border-radius: 10px;
+    width:120%;
+    
+   }
+
+   .CRP2 {
+    top:30%;
+    left:0%; 
+   }
+
+   .CRN2 {
+    top:30%;
+    right:0%;
+   }
+   
+  .lihatsemua{
+    font-size:16px;
+    color:#19c95a;
+  }
+
+  .lihatsemua:hover{
+    cursor:pointer;
+    color:#12883D;
+  }
+
+  .tagihandll{
+    border-radius: 12px;
+  }
+
+  .menuitem{
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .card-body{
+    padding:8px;
+  }
+
+  .pulsa{
+    margin-left:5%;
+  }
+
+  .lainnya{
+    margin-right:2%;
+    font-size: 18px;
+  }
+
+  .pulsa{
+    cursor:pointer;
+  }
+  .pulsaijo{
+    border-bottom: 2px solid green;
+    color: green;
+    cursor:pointer;
+  }
+
+  
+  .tagihandll{
+    color: #757575;
+  }
+
+  .menuitem:hover{
+    color: #3a3a3a;
+    cursor:pointer;
+  }
+
+  .nominal{
+    font-size:14px;
+  }
+
+  .notelp{
+    font-size: 14px;
+  }
+
+  .cslbawah{
+    top:2vh;
+    width:110%;
+  }
+
+  .item-scroll{
+    border-radius: 10px;
+    font-size:18px;
+    color:#757575;
+  }
+
+  .item-scroll img{
+    object-fit: cover;
+    width:24px;
+    height: 24px;
+
+  }
+
+  .Testrow{
+    left:200px;
+  }
+
+.hr{
+  left:200px;
+}
+
+.pengguna-baru{
+  font-size:24px;
+  margin-left:16%;
+}
+
+.berakhir{
+font-size:14px; 
+margin-top:1%;
+}
+
+.card{
+  margin-top:10px;
+  border: none;         
+  width:60%;    
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.3) 0px 1px 3px 0;
+}
+
+.card-title{
+  font-weight:400;
+  font-size:12px;
+  color: Black
+}
+
+.hargaasli{
+  top:5px;
+  font-size:16px;
+  font-weight: bold;;
+}
+
+
+.badgediskon{
+  background-color: #FFDBE2;
+  color: #EF144A;
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+
+.badgecoret{
+  color:#585858;
+  font-size:12px;
+  
+}
+
+.namakota{
+  font-size:12px;
+  margin-top:1px;
+  color:#585858;
+  font-weight: bolder;
+}
+
+.power-merchant{
+  width: 7%;
+}
+
+.progress{
+width:93%;
+height: 4px;
+}
+
+.segerahabis{
+  font-weight: bold;
+  color:#AFB3BE;
+  font-size:12px;
+}
+ 
+.kartu{
+  left:172%;
+}
+
+.kartu2{
+  left:92%
+}
+
+.kartu3{
+  left:92%;
+}
+
+.kartu4{
+  left: 51%;
+}
+
+.kartu5{
+  left:10%;
+}
+
+.kartu6{
+  left:-32%;
+}
+.rectangle{
+  width:300px;
+  border-radius:10px;
+  height: 380px;
+  position: absolute;
+  left:16%
+}
+
+.campain1{
+  width:60%;
+}
+
+.rct1{
+  background-color: #023100;
+}
+.rct2{
+  background-color: #21B81B;
+}
+
+.rct3{
+  background-image: linear-gradient(
+    rgb(12,43,63),
+    rgb(227,103,255)
+  );
+}
+
+.campain3{
+  width:50%;
+  z-index:99999;
+}
+
+.campaignbar1{
+  margin-top: 0%;
+  height: 1.25em;
+}
+
+
+.cards-wrapper{
+  display:flex;
+}
+
+.card1{
+  border: none ;        
+  border-radius: 8px;
+  margin: 0.3em;
+  width: 20%;
+
+  box-shadow: rgba(0,0,0,0.3) 1px 1px 3px 0;
+  
+  
+}
+
