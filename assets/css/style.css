@@ -660,11 +660,49 @@ height: 4px;
 
 .card1{
   border: none ;        
-  border-radius: 8px;
+  border-radius: 10px;
   margin: 0.5em;
+  height: 20%;
 
   box-shadow: rgba(0,0,0,0.3) 1px 1px 3px 0;
   
   
 }
+
+.card-title1{
+  font-weight:400;
+  font-size:14px;
+  color: Black;
+}
+
+.cards-wrapper:hover{
+  cursor: pointer;
+}
+
+.cashbacklabel{
+  background-color:#C9FDE0;
+  border-radius: 3px;
+  color:#00AA5B;
+}
+
+.officialstr{
+  width:10%
+}
+
+.rating{
+  width:10%;
+
+}
+
+.apa{
+  margin-bottom:890px;
+  
+}
+
+.jumlahterjual{
+  font-size: 14px;
+  font-weight: 400;
+  color:#505050
+}
+
 
