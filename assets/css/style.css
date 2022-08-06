@@ -1,22 +1,40 @@
 
 .header {
-    position: relative;
+    position: fixed;
+    width:100%;
     z-index: 9999;
-}
 
+}
+ 
+.notext{
+  text-decoration: none;
+}
+.tesmargin{
+  position: relative;
+  margin-left:800px;
+}
 .header span{
     font-size:14px;
 }
 
 .item-header-1{
     padding: 8px 32px;
+    position: fixed;
+    z-index:9999999;
     background-color: #f4f4f4
     ;
 }
 
+.bagianbwh{
+  margin-top:400px;
+}
 
 .header .item-header-1 span{
     color: #929292;
+}
+
+.texttentang{
+  right:20%;
 }
 
 .header .item-header-1 span:hover{
@@ -24,8 +42,9 @@
  cursor:pointer;
 }
 
-.item-header-1 .container .tentang-tokped{
-  position:relative;
+.item-header-1{
+
+  width:100%;
 }
 .container a {
     text-decoration: none;
@@ -242,7 +261,7 @@
  }
 
  .modal-content{
-  top: 80px;
+  top: 60px;
   right: 90%;
   padding: 19px;
   width: 150%;
@@ -335,12 +354,18 @@
 
  .carousel{
   position:relative;
-  top:30px;
+
   width:75%;
   left:15%
   
  }
-
+ .carousel1{
+  position:relative;
+  top:17vh;
+  width:75%;
+  left:15%
+  
+ }
  .carousel-inner{
   width: 95%;
   border-radius: 30px;
@@ -383,7 +408,7 @@
 
  .category-carousel{
   position: relative;
-  top: 40px;
+  top: 20vh;
   margin:10px 32px;
   left: 15%;
   width: 71%;
@@ -529,6 +554,13 @@
 
 .pengguna-baru{
   font-size:24px;
+  margin-top:8%;
+  margin-left:16%;
+}
+
+.pengguna-baru1{
+  font-size:24px;
+  margin-top:0%;
   margin-left:16%;
 }
 
@@ -631,6 +663,7 @@ height: 4px;
 
 .rct1{
   background-color: #023100;
+  
 }
 .rct2{
   background-color: #21B81B;
@@ -706,3 +739,86 @@ height: 4px;
 }
 
 
+.carouselbarang{
+  margin-top:1000px;
+}
+
+.wrap-afix{
+  position: relative;
+  top:20px;
+  margin-left: 14%;
+
+}
+
+.bg-affix1{
+  background:rgb(98,0,73);
+  background-color: linear-gradient(
+    90deg,
+    rgba(98,0,73.1) 0%,
+    rgba(158,82,150,1)100%
+  )
+}
+
+.box-affix{
+  display:inline-block;
+  width:220px;
+  height: 64px;
+  padding:6px 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius:8px;
+  color:white;
+}
+
+.box-affix1{
+  display:inline-block;
+  width:220px;
+  height: 64px;
+  padding:6px 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius:8px;
+  color:white;
+}
+
+
+
+.line1{
+  background-color: white;
+  
+  margin-bottom: 2px;
+  height: 1px;
+  width:40px;
+}
+.afixtext{
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  font-weight: Bold;
+}
+
+.affix{
+  width: 100%;
+  background: initial;
+  top:117px;
+  z-index: 8000;
+  position: fixed;
+}
+
+.penjualan-utama{
+  margin-left:100px;
+}
+
+.cardbwh1{
+  margin-left: 15% !important;
+  width: 75%;
+}
+
+.carder{
+  border: none ;        
+  border-radius: 10px;
+
+
+
+  box-shadow: rgba(0,0,0,0.3) 1px 1px 3px 0;
+}
