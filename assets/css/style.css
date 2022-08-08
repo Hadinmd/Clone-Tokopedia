@@ -829,3 +829,19 @@ height: 4px;
   box-shadow: rgba(0,0,0,0.3) 1px 1px 3px 0;
 }
 
+.cardinti{
+  margin-top:10px;
+  border: none;       
+
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.3) 0px 1px 3px 0;
+}
+
+.juduljualan{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.penjualan{
+  margin-left:12.2%;
+}
