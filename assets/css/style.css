@@ -845,3 +845,40 @@ height: 4px;
 .penjualan{
   margin-left:12.2%;
 }
+
+.cardmain{
+  margin-left:92%;
+}
+
+.cardmain1{
+  margin-left:63%;
+}
+
+.cardmain2{
+  margin-left:34%;
+}
+
+.cardmain3{
+  margin-left:5%;
+}
+
+.cardmain4{
+  margin-left:-24%;
+}
+
+.cardmain5{
+  margin-left:-54%;
+}
+
+.cardm1{
+    margin-top:10px;
+    border: none;         
+    width:70%;    
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.3) 0px 1px 3px 0;
+}
+
+.marginatas{
+  margin-top: -3%;
+  
+}
