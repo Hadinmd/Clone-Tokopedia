@@ -200,8 +200,8 @@
       transition:0.5s;
       opacity:1;
       transform:translateY(-4);
-      z-index: 80000;
-      width:
+      z-index: 99999;
+      
   
 
     }
@@ -213,11 +213,15 @@
 
     .menyBarStyle{
       display:block;
+
       visibility: visible;
       transition: 0.5s;
       opacity:1;
       transform: translateY(4px);
       transform-origin:0% 0%;
+      z-index:99999 ;
+
+     
     }
 
     .menu-bar-keranjang h4{
@@ -808,7 +812,7 @@ height: 4px;
   background: initial;
   background-color: white;
   top:117px;
-  z-index: 80000;
+  z-index: 60000;
   position: fixed;
   box-shadow : #636363 0px 4px 6px -4px ;
 }
@@ -880,4 +884,33 @@ height: 4px;
 .marginatas{
   margin-top: -3%;
   
+}
+
+.textbawah{
+  font-weight: 200;
+  color:#505050
+}
+
+.textbawah:hover{
+  color:#00AA5B;
+  cursor: pointer;;
+}
+
+.textbawahm{
+  margin-left:10% !important;
+}
+.textbawahm1{
+  margin-left:7.2% !important;
+}
+
+.bagianpalingbawah{
+  margin-left:12%;
+}
+
+.textbawahm2{
+  margin-left:4.7% !important;
+}
+
+.bagianpalingbwh2{
+  margin-left:12%  !important;
 }
