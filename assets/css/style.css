@@ -5,6 +5,10 @@
     z-index: 9999;
 
 }
+
+.test-align{
+  text-align: left !important;
+}
  
 .notext{
   text-decoration: none;
@@ -18,7 +22,7 @@
 }
 
 .item-header-1{
-    padding: 8px 32px;
+    padding: 2px 32px;
     position: fixed;
     z-index:999999;
     background-color: #f4f4f4
